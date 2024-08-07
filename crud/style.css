@@ -1,0 +1,71 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.cnt {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+form
+{
+    width: 100%;
+    max-width: 600px;
+    height: 100vh;
+    max-height: 450px; 
+    box-shadow: 0 0 10px rgba(51, 51, 51, 0.2);
+    border-radius: 12px;
+}
+.img
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 12px;
+}
+.btn1  
+{
+    background-color: #0875f1;
+    padding: 5px 6px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    border-radius: 6px;
+}
+.btn2  
+{
+    background-color: #f10808;
+    padding: 5px 6px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    border-radius: 6px;
+}
+
+
+/* Define the button styles */
+.back {
+    position: fixed;
+    bottom: 20px; /* Adjust this value to set the distance from the bottom */
+    right: 20px; /* Adjust this value to set the distance from the right */
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: #007bff; /* Background color for the button */
+    color: #fff; /* Text color for the button */
+    border: none;
+    border-radius: 5px; /* Adjust border-radius as needed for rounded corners */
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Optional: Add hover styles for the button */
+.back:hover {
+    background-color: #0056b3;
+    color: #fff; /* Adjust the color for the hover effect */
+}
+
